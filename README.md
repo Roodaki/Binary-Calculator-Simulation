@@ -1,36 +1,16 @@
-<h1 align="center">4-Bit Calculator Logic Circuit</h1>
+<div align="center">
+  <h1><strong>Calculator Logic-Circuit</strong></h1>
+  <p><strong>4-bit Binary-Calculator Logic-Circuit Simulation using Proteus Design Suite</strong></p>
+</div>
 
-* A 4-Bit Calculator Logic Circuit That Takes Two 4-Bit [Binary Number](https://en.wikipedia.org/wiki/Binary_number)s As Input & Performe One of the Four Main Arithmetic Operations (Summation, Subtraction, Multiplication & Unsigned Division) on Them And Also Shows Carry, Zero, Sign & Overflow Flags.
-* Simulated Using [Proteus Circuit Simulation Software](https://www.labcenter.com/simulation/)
-## Implementation
-### 1 & 2. [Adder/Subtractor](https://www.geeksforgeeks.org/4-bit-binary-adder-subtractor/) Circuit
-  ![](https://media.geeksforgeeks.org/wp-content/uploads/20190824181600/dig51.png) 
-  * [Full Adder](https://www.geeksforgeeks.org/full-adder-in-digital-logic/) Circuit
-  
-    ![](https://media.geeksforgeeks.org/wp-content/uploads/4-34.png)
-  * [Half Adder](https://www.geeksforgeeks.org/half-adder-in-digital-logic/) Circuit
-  
-    ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Half_Adder.jpg)
-### 3. Multiplier Circuit
-  ![](https://i.stack.imgur.com/O8iCr.png)
-### 4. [Binary Unsigned Divider](https://www.geeksforgeeks.org/non-restoring-division-unsigned-integer/) Algorithm
-  ![](https://media.geeksforgeeks.org/wp-content/uploads/non-restoring3.jpg)
-## Some Random Test-Cases
-### 1. Summation
-  - 7 + 5 -> C (12 in Decimal)
-  
-    ![Screenshot (458)](https://user-images.githubusercontent.com/89901590/192104601-fe57472b-1747-40c3-be33-b8aff7bc4a0b.png)
-### 2. Subtraction
-  - F (15 in Decimal) - 6 = 9
-    
-    ![Screenshot (459)](https://user-images.githubusercontent.com/89901590/192104717-95855d0f-abd0-4178-9ab8-d46a3c977cd0.png)
-### 3. Multiplication
-  - 3 * 3 = 9
-  
-    ![Screenshot (460)](https://user-images.githubusercontent.com/89901590/192104791-134737f4-acdf-481d-b36e-591f3d1f06da.png)
-### 4. Division
-  - B (11 in Decimal) / 3:
-    - Remainder of Division: 2
-    - Quotient of Division: 3
-    
-    ![Screenshot (461)](https://user-images.githubusercontent.com/89901590/192104971-ba07a712-1179-48ee-9ef0-7322bf7633b5.png)
+![Screenshot (461)](https://user-images.githubusercontent.com/89901590/192104971-ba07a712-1179-48ee-9ef0-7322bf7633b5.png)
+
+## Overview
+This project implements a 4-bit calculator using combinational logic circuits to perform arithmetic operations on binary numbers. The circuit is designed to take two 4-bit binary numbers as input and perform one of the four main arithmetic operations. The results are displayed on a 7-segment display along with carry, zero, sign, and overflow flags.
+
+## Usage Guide
+1. Download and install Proteus Circuit Simulation Software.
+2. Download and open the Proteus project file included in the repository to your computer. Once the project is open, you will see the circuit diagram of the 4-bit calculator logic circuit. 
+3. Set the input numbers for the arithmetic operation by changing the values of the four switches labeled "A3", "A2", "A1", and "A0" for the first 4-bit binary number and "B3", "B2", "B1", and "B0" for the second 4-bit binary number. Each switch can be set to either 0 or 1 to indicate the corresponding binary digit of the input.
+4. Select the arithmetic operation you want to perform by changing the value of the "Operation" switch. The options are "Addition", "Subtraction", "Multiplication", and "Unsigned Division".
+5. Simulate the circuit by clicking on the "Play" button on the toolbar. This will run the simulation and display the result of the arithmetic operation on the 7-segment display.
